@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac86f821-19d4-4968-872e-27b770a7f0ea" name="Default" comment="" />
+    <list default="true" id="ac86f821-19d4-4968-872e-27b770a7f0ea" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/zombiemania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zombiemania.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zombiemania.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/zombiemania.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zombiemania.iws" beforeDir="false" afterPath="$PROJECT_DIR$/zombiemania.iws" afterDir="false" />
+    </list>
     <ignored path="zombiemania.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="105">
               <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding>
                 <element signature="method#Board#0;class#Board#0" />
@@ -45,17 +52,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/ZombieMania.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="255">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
-                <element signature="method#ZombieMania#0;class#ZombieMania#0" />
                 <element signature="method#loadNextLevel#0;class#ZombieMania#0" />
                 <element signature="method#run#0;class#ZombieMania#0" />
                 <element signature="method#addMusic#0;class#ZombieMania#0" />
-                <element signature="method#main#0;class#ZombieMania#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tests/Main/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tests/Main/PlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Movement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="330">
               <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="method#setLeft#0;class#Movement#0" />
@@ -77,7 +113,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/GameObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
+            <state relative-caret-position="720">
               <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
               <folding>
                 <element signature="method#setX#0;class#GameObject#0" />
@@ -91,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Creep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="210">
               <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="method#move#0;class#Creep#0" />
@@ -103,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/BlockType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="165">
               <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
@@ -112,7 +148,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/CollisionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="345">
               <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="method#CollisionHandler#0;class#CollisionHandler#0" />
@@ -132,7 +168,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Resources/Maps/map1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="30">
               <caret line="2" column="188" selection-start-line="2" selection-start-column="188" selection-end-line="2" selection-end-column="188" />
             </state>
           </provider>
@@ -144,12 +180,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="Tag Library Descriptor" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HierarchyBrowserManager">
     <option name="SCOPE" value="All" />
@@ -157,8 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CreepFactory.java" />
-        <option value="$PROJECT_DIR$/src/Highscore.java" />
         <option value="$PROJECT_DIR$/src/ScoreComparator.java" />
         <option value="$PROJECT_DIR$/src/map_test.txt" />
         <option value="$PROJECT_DIR$/src/Maps/map0.txt" />
@@ -208,6 +245,8 @@
         <option value="$PROJECT_DIR$/src/Resources/Maps/map2.txt" />
         <option value="$PROJECT_DIR$/src/Resources/Maps/map1.txt" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/ZombieMania/Board.java" />
+        <option value="$PROJECT_DIR$/src/Tests/Main/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests/Main/PlayerTest.java" />
       </list>
     </option>
   </component>
@@ -246,40 +285,68 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zombiemania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zombiemania" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zombiemania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zombiemania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zombiemania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zombiemania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551186350304" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania" />
-    <property name="FullScreen" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -307,17 +374,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZombieMania">
+  <component name="RunManager" selected="JUnit.PlayerTest.moveLeft">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuckThisFuckingFuck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FuckThisFuckingFuck" />
-      <module name="zombiemania" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -357,14 +416,6 @@
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="zombiemania" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -434,6 +485,39 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2" />
     </configuration>
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zombiemania" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.Main" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Main.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.moveLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zombiemania" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.Main" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Main.PlayerTest" />
+      <option name="METHOD_NAME" value="moveLeft" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -469,18 +553,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MapTest" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.ZombieMania" />
-      <item itemvalue="Application.FuckThisFuckingFuck" />
       <item itemvalue="Application.MusicPlayer" />
+      <item itemvalue="JUnit.PlayerTest" />
+      <item itemvalue="JUnit.PlayerTest.moveLeft" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest.moveLeft" />
+        <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="Application.ZombieMania" />
         <item itemvalue="Application.MusicPlayer" />
         <item itemvalue="Application.MapTest" />
-        <item itemvalue="Application.FuckThisFuckingFuck" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -506,52 +590,65 @@
       <workItem from="1430935076579" duration="4211000" />
       <workItem from="1431357405851" duration="725000" />
       <workItem from="1551182145072" duration="175000" />
+      <workItem from="1551184058128" duration="2289000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PlayerTest - 2019.02.26 at 14h 01m 38s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest - 2019.02.26 at 14h 01m 57s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_moveLeft - 2019.02.26 at 14h 05m 17s.xml">
+      <configuration name="PlayerTest.moveLeft" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24136000" />
+    <option name="totallyTimeSpent" value="26425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80974126" visible="true" weight="0.11673774" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80974126" visible="true" weight="0.17121212" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.19025876" side_tool="true" weight="0.16979167" />
       <window_info id="Palette&#9;" order="4" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3261391" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30877572" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3085622" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39650872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.3968825" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Duplicates" order="7" weight="0.3297362" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Dependency Viewer" order="9" weight="0.3297362" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="9" weight="0.7156704" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info anchor="bottom" id="Changes" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32374102" />
       <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
       <window_info anchor="right" x="401" y="324" width="595" height="367" id="Documentation" order="0" type="FLOATING" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Designer" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" x="104" y="123" width="1236" height="677" id="DSM" order="6" type="FLOATING" />
+      <window_info anchor="right" x="104" y="64" width="1236" height="677" id="DSM" order="6" type="FLOATING" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="12" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80974126" visible="true" weight="0.15668523" />
@@ -862,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,7 +967,7 @@
         <state>
           <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding>
-            <element signature="method#getCreep#0;class#EnemyFactory#0" expanded="false" />
+            <element signature="method#getCreep#0;class#EnemyFactory#0" />
           </folding>
         </state>
       </provider>
@@ -881,10 +977,10 @@
         <state>
           <caret line="117" column="56" selection-start-line="117" selection-start-column="56" selection-end-line="117" selection-end-column="56" />
           <folding>
-            <element signature="docComment;class#GameComponent#0" expanded="false" />
-            <element signature="method#GameComponent#0;class#GameComponent#0" expanded="false" />
-            <element signature="method#setImages#0;class#GameComponent#0" expanded="false" />
-            <element signature="method#paintComponent#0;class#GameComponent#0" expanded="false" />
+            <element signature="docComment;class#GameComponent#0" />
+            <element signature="method#GameComponent#0;class#GameComponent#0" />
+            <element signature="method#setImages#0;class#GameComponent#0" />
+            <element signature="method#paintComponent#0;class#GameComponent#0" />
           </folding>
         </state>
       </provider>
@@ -894,10 +990,10 @@
         <state>
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
           <folding>
-            <element signature="method#MapExtractor#0;class#MapExtractor#0" expanded="false" />
-            <element signature="method#readFile#0;class#MapExtractor#0" expanded="false" />
-            <element signature="method#loadMapResource#0;class#MapExtractor#0" expanded="false" />
-            <element signature="method#openFile#0;class#MapExtractor#0" expanded="false" />
+            <element signature="method#MapExtractor#0;class#MapExtractor#0" />
+            <element signature="method#readFile#0;class#MapExtractor#0" />
+            <element signature="method#loadMapResource#0;class#MapExtractor#0" />
+            <element signature="method#openFile#0;class#MapExtractor#0" />
           </folding>
         </state>
       </provider>
@@ -917,9 +1013,9 @@
         <state>
           <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
           <folding>
-            <element signature="method#loadMaps#0;class#ResourceLoader#0" expanded="false" />
-            <element signature="method#loadAudioSteam#0;class#ResourceLoader#0" expanded="false" />
-            <element signature="method#loadImageResource#0;class#ResourceLoader#0" expanded="false" />
+            <element signature="method#loadMaps#0;class#ResourceLoader#0" />
+            <element signature="method#loadAudioSteam#0;class#ResourceLoader#0" />
+            <element signature="method#loadImageResource#0;class#ResourceLoader#0" />
           </folding>
         </state>
       </provider>
@@ -929,16 +1025,16 @@
         <state>
           <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
           <folding>
-            <element signature="method#Player#0;class#Player#0" expanded="false" />
-            <element signature="method#sayNo#0;class#Player#0" expanded="false" />
-            <element signature="method#sayIntro#0;class#Player#0" expanded="false" />
-            <element signature="method#looseLife#0;class#Player#0" expanded="false" />
-            <element signature="method#moveLeft#0;class#Player#0" expanded="false" />
-            <element signature="method#moveRight#0;class#Player#0" expanded="false" />
-            <element signature="method#fallDown#0;class#Player#0" expanded="false" />
-            <element signature="method#moveJump#0;class#Player#0" expanded="false" />
-            <element signature="method#rMoveLeft#0;class#Player#0" expanded="false" />
-            <element signature="method#rMoveRight#0;class#Player#0" expanded="false" />
+            <element signature="method#Player#0;class#Player#0" />
+            <element signature="method#sayNo#0;class#Player#0" />
+            <element signature="method#sayIntro#0;class#Player#0" />
+            <element signature="method#looseLife#0;class#Player#0" />
+            <element signature="method#moveLeft#0;class#Player#0" />
+            <element signature="method#moveRight#0;class#Player#0" />
+            <element signature="method#fallDown#0;class#Player#0" />
+            <element signature="method#moveJump#0;class#Player#0" />
+            <element signature="method#rMoveLeft#0;class#Player#0" />
+            <element signature="method#rMoveRight#0;class#Player#0" />
           </folding>
         </state>
       </provider>
@@ -970,7 +1066,7 @@
         <state>
           <caret line="132" column="54" selection-start-line="132" selection-start-column="54" selection-end-line="132" selection-end-column="54" />
           <folding>
-            <element signature="method#setConvertedMap#0;class#MapConverter#0" expanded="false" />
+            <element signature="method#setConvertedMap#0;class#MapConverter#0" />
           </folding>
         </state>
       </provider>
@@ -979,7 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,7 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="5" column="134" selection-start-line="5" selection-start-column="134" selection-end-line="5" selection-end-column="134" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,7 +1090,7 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java" />
     <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="105">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
             <element signature="method#Board#0;class#Board#0" />
@@ -1012,7 +1106,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Movement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="330">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="method#setLeft#0;class#Movement#0" />
@@ -1023,7 +1117,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
+        <state relative-caret-position="720">
           <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
           <folding>
             <element signature="method#setX#0;class#GameObject#0" />
@@ -1035,7 +1129,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Creep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="210">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <element signature="method#move#0;class#Creep#0" />
@@ -1045,14 +1139,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/BlockType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="165">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/CollisionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="345">
           <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="method#CollisionHandler#0;class#CollisionHandler#0" />
@@ -1070,21 +1164,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/Maps/map1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="30">
           <caret line="2" column="188" selection-start-line="2" selection-start-column="188" selection-end-line="2" selection-end-column="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/ZombieMania.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="255">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
-            <element signature="method#ZombieMania#0;class#ZombieMania#0" />
             <element signature="method#loadNextLevel#0;class#ZombieMania#0" />
             <element signature="method#run#0;class#ZombieMania#0" />
             <element signature="method#addMusic#0;class#ZombieMania#0" />
-            <element signature="method#main#0;class#ZombieMania#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/Main/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/Main/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
           </folding>
         </state>
       </provider>
