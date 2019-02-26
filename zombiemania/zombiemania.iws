@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac86f821-19d4-4968-872e-27b770a7f0ea" name="Default" comment="" />
+    <ignored path="zombiemania.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/zombiemania$ZombieMania.coverage" NAME="ZombieMania Coverage Results" MODIFIED="1430164663712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DsmViewSettings">
+    <option name="flattenPackages" value="true" />
+    <option name="groupCycles" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="zombiemania" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding>
+                <element signature="method#Board#0;class#Board#0" />
+                <element signature="method#getPlayerXOrY#0;class#Board#0" />
+                <element signature="method#returnToSafety#0;class#Board#0" />
+                <element signature="method#gameOverDialog#0;class#Board#0" />
+                <element signature="method#restoreCreeps#0;class#Board#0" />
+                <element signature="method#handlePlayerTick#0;class#Board#0" />
+                <element signature="method#handleEnemyTick#0;class#Board#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/ZombieMania.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="method#ZombieMania#0;class#ZombieMania#0" />
+                <element signature="method#loadNextLevel#0;class#ZombieMania#0" />
+                <element signature="method#run#0;class#ZombieMania#0" />
+                <element signature="method#addMusic#0;class#ZombieMania#0" />
+                <element signature="method#main#0;class#ZombieMania#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Movement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="method#setLeft#0;class#Movement#0" />
+                <element signature="method#setRight#0;class#Movement#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/GameObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+              <folding>
+                <element signature="method#setX#0;class#GameObject#0" />
+                <element signature="method#setY#0;class#GameObject#0" />
+                <element signature="method#updateEdges#0;class#GameObject#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Creep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding>
+                <element signature="method#move#0;class#Creep#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/BlockType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/CollisionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="method#CollisionHandler#0;class#CollisionHandler#0" />
+                <element signature="method#closestBlock#0;class#CollisionHandler#0" />
+                <element signature="method#finish#0;class#CollisionHandler#0" />
+                <element signature="method#hitByEnemy#0;class#CollisionHandler#0" />
+                <element signature="method#cantMoveRight#0;class#CollisionHandler#0" />
+                <element signature="method#cantMoveLeft#0;class#CollisionHandler#0" />
+                <element signature="method#cantMoveDown#0;class#CollisionHandler#0" />
+                <element signature="method#cantMoveUp#0;class#CollisionHandler#0" />
+                <element signature="method#creepCantMoveRight#0;class#CollisionHandler#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Resources/Maps/map1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="188" selection-start-line="2" selection-start-column="188" selection-end-line="2" selection-end-column="188" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/CreepFactory.java" />
+        <option value="$PROJECT_DIR$/src/Highscore.java" />
+        <option value="$PROJECT_DIR$/src/ScoreComparator.java" />
+        <option value="$PROJECT_DIR$/src/map_test.txt" />
+        <option value="$PROJECT_DIR$/src/Maps/map0.txt" />
+        <option value="$PROJECT_DIR$/src/BoardListener.java" />
+        <option value="$PROJECT_DIR$/src/ZombieFrame.java" />
+        <option value="$PROJECT_DIR$/src/Dog.java" />
+        <option value="$PROJECT_DIR$/src/Hound.java" />
+        <option value="$PROJECT_DIR$/src/Maps/map2.txt" />
+        <option value="$PROJECT_DIR$/src/HighscoreList.java" />
+        <option value="$PROJECT_DIR$/src/MapEditor.java" />
+        <option value="$PROJECT_DIR$/src/MapExtractor.java" />
+        <option value="$PROJECT_DIR$/src/MapLoader.java" />
+        <option value="$PROJECT_DIR$/src/MovementClass.java" />
+        <option value="$PROJECT_DIR$/src/Maps/map1.txt" />
+        <option value="$PROJECT_DIR$/src/CollisionHandler.java" />
+        <option value="$PROJECT_DIR$/src/BlockType.java" />
+        <option value="$PROJECT_DIR$/src/MapConverter.java" />
+        <option value="$PROJECT_DIR$/src/ObjectInterface.java" />
+        <option value="$PROJECT_DIR$/src/PlayerImpl.java" />
+        <option value="$PROJECT_DIR$/src/Creep.java" />
+        <option value="$PROJECT_DIR$/src/GameComponent.java" />
+        <option value="$PROJECT_DIR$/src/ResourceLoader.java" />
+        <option value="$PROJECT_DIR$/src/ZombieMania.java" />
+        <option value="$PROJECT_DIR$/src/MusicPlayer.java" />
+        <option value="$PROJECT_DIR$/src/Player.java" />
+        <option value="$PROJECT_DIR$/src/Board.java" />
+        <option value="$PROJECT_DIR$/src/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/EnemyFactory.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/MovementClass.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/Board.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/BoardListener.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/CollisionHandler.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/Creep.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/EnemyFactory.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/GameComponent.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/MapConverter.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/MapExtractor.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/Movement.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/Player.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/ResourceLoader.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/ZombieFrame.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/ZombieMania.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/MusicPlayer.java" />
+        <option value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania/MapLoader.java" />
+        <option value="$PROJECT_DIR$/src/Resources/Maps/map0.txt" />
+        <option value="$PROJECT_DIR$/src/Resources/Maps/map2.txt" />
+        <option value="$PROJECT_DIR$/src/Resources/Maps/map1.txt" />
+        <option value="$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/ZombieMania/Board.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="289" />
+    <option name="y" value="35" />
+    <option name="width" value="1436" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JavaDoc</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/TDDD78/Project/ZombieMania" />
+    <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Maps" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Maps" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ZombieMania">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuckThisFuckingFuck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FuckThisFuckingFuck" />
+      <module name="zombiemania" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapTest" />
+      <module name="zombiemania" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.liu.ida.davsc542kimla207.tddd78.project.zombiemania.MusicPlayer" />
+      <module name="zombiemania" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZombieMania" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.liu.ida.davsc542kimla207.tddd78.project.zombiemania.ZombieMania" />
+      <module name="zombiemania" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="zombiemania" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="clearAppDataOnEachLaunch" value="true" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.MapTest" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.ZombieMania" />
+      <item itemvalue="Application.FuckThisFuckingFuck" />
+      <item itemvalue="Application.MusicPlayer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ZombieMania" />
+        <item itemvalue="Application.MusicPlayer" />
+        <item itemvalue="Application.MapTest" />
+        <item itemvalue="Application.FuckThisFuckingFuck" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac86f821-19d4-4968-872e-27b770a7f0ea" name="Default" comment="" />
+      <created>1429003523105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1429003523105</updated>
+      <workItem from="1430769012863" duration="706000" />
+      <workItem from="1430769810477" duration="4255000" />
+      <workItem from="1430833798191" duration="7050000" />
+      <workItem from="1430841242721" duration="76000" />
+      <workItem from="1430841418353" duration="288000" />
+      <workItem from="1430853582474" duration="2360000" />
+      <workItem from="1430857035488" duration="86000" />
+      <workItem from="1430860204775" duration="491000" />
+      <workItem from="1430913526019" duration="3713000" />
+      <workItem from="1430935076579" duration="4211000" />
+      <workItem from="1431357405851" duration="725000" />
+      <workItem from="1551182145072" duration="175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24136000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80974126" visible="true" weight="0.11673774" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.19025876" side_tool="true" weight="0.16979167" />
+      <window_info id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3261391" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30877572" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39650872" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.3968825" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Duplicates" order="7" weight="0.3297362" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="9" weight="0.3297362" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Application Servers" order="11" />
+      <window_info anchor="bottom" id="Changes" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32374102" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" x="401" y="324" width="595" height="367" id="Documentation" order="0" type="FLOATING" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Designer" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" x="104" y="123" width="1236" height="677" id="DSM" order="6" type="FLOATING" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3296875" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80974126" visible="true" weight="0.15668523" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.19025876" side_tool="true" weight="0.16979167" />
+      <window_info id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3261391" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30935252" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39650872" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.3968825" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Application Servers" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32374102" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="right" x="401" y="324" width="595" height="367" id="Documentation" order="0" type="FLOATING" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Designer" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3296875" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Resources/Pictures/woodblock.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Pictures/spikes.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Pictures/grassblock.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Pictures/zombielookright.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Pictures/zombieright.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/javax/swing/JComponent.java" />
+    <entry file="uml://JAVA/MovementClass">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>MovementClass</OriginalElement>
+          <nodes>
+            <node x="" y="">MovementClass</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9671354574030075" x="70.0" y="74.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">BoardListener</node>
+            <node x="" y="">resources</node>
+            <node x="" y="">com</node>
+            <node x="" y="">MapLoader</node>
+            <node x="" y="">Player</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">MapConverter</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">org</node>
+            <node x="" y="">Maps</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">MusicPlayer</node>
+            <node x="" y="">Creep</node>
+            <node x="" y="">MovementClass</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">Sounds</node>
+            <node x="" y="">BlockType</node>
+            <node x="" y="">Board</node>
+            <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">GameComponent</node>
+            <node x="" y="">CollisionHandler</node>
+            <node x="" y="">MapExtractor</node>
+            <node x="" y="">EnemyFactory</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">Pictures</node>
+            <node x="" y="">ZombieMania</node>
+            <node x="" y="">apple</node>
+            <node x="" y="">ZombieFrame</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">java</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5845051368886882" x="376.0" y="56.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Player">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Player</OriginalElement>
+          <nodes>
+            <node x="10.0" y="80.0">GameObject</node>
+            <node x="-87.5" y="200.0">Player</node>
+            <node x="0.0" y="0.0">ObjectInterface</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="GameObject" target="ObjectInterface">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="Player" target="GameObject">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-300.0" y="75.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/javax/swing/Timer.java" />
+    <entry file="uml://JAVA/TDDD78.Project.ZombieMania.Player">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>TDDD78.Project.ZombieMania.Player</OriginalElement>
+          <nodes>
+            <node x="" y="">TDDD78.Project.ZombieMania.GameObject</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.Movement</node>
+            <node x="" y="">java.lang.SuppressWarnings</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.Player</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="140.0" y="95.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javax/swing/annotations.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/TDDD78.Project.ZombieMania.Board">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>TDDD78.Project.ZombieMania.Board</OriginalElement>
+          <nodes>
+            <node x="194.0" y="80.0">java.awt.Component</node>
+            <node x="326.42361111111114" y="240.0">javax.accessibility.Accessible</node>
+            <node x="0.0" y="160.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
+            <node x="38.423611111111086" y="0.0">java.awt.image.ImageObserver</node>
+            <node x="186.4236111111111" y="0.0">java.awt.MenuContainer</node>
+            <node x="278.42361111111114" y="320.0">javax.swing.JPanel</node>
+            <node x="335.4236111111111" y="0.0">java.io.Serializable</node>
+            <node x="200.0" y="160.0">java.awt.Container</node>
+            <node x="279.42361111111114" y="400.0">TDDD78.Project.ZombieMania.Board</node>
+            <node x="195.42361111111114" y="240.0">javax.swing.JComponent</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javax.swing.JPanel" target="javax.swing.JComponent">
+              <point x="-17.75" y="-15.0" />
+              <point x="296.17361111111114" y="295.0" />
+              <point x="250.92361111111114" y="295.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="javax.swing.TransferHandler.HasGetTransferHandler">
+              <point x="-37.0" y="-15.0" />
+              <point x="213.92361111111114" y="215.0" />
+              <point x="90.0" y="215.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.awt.Container">
+              <point x="0.0" y="-15.0" />
+              <point x="250.92361111111114" y="215.0" />
+              <point x="247.5" y="215.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="TDDD78.Project.ZombieMania.Board" target="javax.swing.JPanel">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.swing.JPanel" target="javax.accessibility.Accessible">
+              <point x="17.75" y="-15.0" />
+              <point x="331.67361111111114" y="295.0" />
+              <point x="376.92361111111114" y="295.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.MenuContainer">
+              <point x="-2.8421709430404007E-14" y="-15.0" />
+              <point x="247.49999999999994" y="55.0" />
+              <point x="250.9236111111111" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.awt.Container" target="java.awt.Component">
+              <point x="-2.8421709430404007E-14" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+              <point x="-35.666666666666686" y="-15.0" />
+              <point x="211.83333333333331" y="55.0" />
+              <point x="102.42361111111109" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.awt.Component" target="java.io.Serializable">
+              <point x="35.66666666666666" y="-15.0" />
+              <point x="283.16666666666663" y="55.0" />
+              <point x="361.6736111111111" y="55.0" />
+              <point x="-26.25" y="15.0" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.io.Serializable">
+              <point x="37.0" y="-15.0" />
+              <point x="287.92361111111114" y="215.0" />
+              <point x="414.1736111111111" y="215.0" />
+              <point x="26.250000000000014" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.5998077392578125" x="125.0" y="125.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/TDDD78.Project.ZombieMania">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>TDDD78.Project.ZombieMania</OriginalElement>
+          <nodes>
+            <node x="" y="">TDDD78.Project.ZombieMania.MusicPlayer</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.CollisionHandler</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.GameComponent</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.ZombieFrame</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.Creep</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.EnemyFactory</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.MapLoader</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.BoardListener</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.ResourceLoader</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.Board</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.BlockType</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.ZombieMania</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.GameObject</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.MapConverter</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.Movement</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.MapExtractor</node>
+            <node x="" y="">TDDD78.Project.ZombieMania.Player</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.7456264306490838" x="191.0" y="167.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/Object.java" />
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/BoardListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/EnemyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="method#getCreep#0;class#EnemyFactory#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/GameComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="117" column="56" selection-start-line="117" selection-start-column="56" selection-end-line="117" selection-end-column="56" />
+          <folding>
+            <element signature="docComment;class#GameComponent#0" expanded="false" />
+            <element signature="method#GameComponent#0;class#GameComponent#0" expanded="false" />
+            <element signature="method#setImages#0;class#GameComponent#0" expanded="false" />
+            <element signature="method#paintComponent#0;class#GameComponent#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/MapExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding>
+            <element signature="method#MapExtractor#0;class#MapExtractor#0" expanded="false" />
+            <element signature="method#readFile#0;class#MapExtractor#0" expanded="false" />
+            <element signature="method#loadMapResource#0;class#MapExtractor#0" expanded="false" />
+            <element signature="method#openFile#0;class#MapExtractor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/ZombieFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="method#ZombieFrame#0;class#ZombieFrame#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/ResourceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          <folding>
+            <element signature="method#loadMaps#0;class#ResourceLoader#0" expanded="false" />
+            <element signature="method#loadAudioSteam#0;class#ResourceLoader#0" expanded="false" />
+            <element signature="method#loadImageResource#0;class#ResourceLoader#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+          <folding>
+            <element signature="method#Player#0;class#Player#0" expanded="false" />
+            <element signature="method#sayNo#0;class#Player#0" expanded="false" />
+            <element signature="method#sayIntro#0;class#Player#0" expanded="false" />
+            <element signature="method#looseLife#0;class#Player#0" expanded="false" />
+            <element signature="method#moveLeft#0;class#Player#0" expanded="false" />
+            <element signature="method#moveRight#0;class#Player#0" expanded="false" />
+            <element signature="method#fallDown#0;class#Player#0" expanded="false" />
+            <element signature="method#moveJump#0;class#Player#0" expanded="false" />
+            <element signature="method#rMoveLeft#0;class#Player#0" expanded="false" />
+            <element signature="method#rMoveRight#0;class#Player#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/MusicPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="docComment;class#MusicPlayer#0" />
+            <element signature="method#MusicPlayer#0;class#MusicPlayer#0" />
+            <element signature="method#load#0;class#MusicPlayer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/MapLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="method#MapLoader#0;class#MapLoader#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/MapConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="132" column="54" selection-start-line="132" selection-start-column="54" selection-end-line="132" selection-end-column="54" />
+          <folding>
+            <element signature="method#setConvertedMap#0;class#MapConverter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Maps/map0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Maps/map2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" column="134" selection-start-line="5" selection-start-column="134" selection-end-line="5" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Launcher.class" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="method#Board#0;class#Board#0" />
+            <element signature="method#getPlayerXOrY#0;class#Board#0" />
+            <element signature="method#returnToSafety#0;class#Board#0" />
+            <element signature="method#gameOverDialog#0;class#Board#0" />
+            <element signature="method#restoreCreeps#0;class#Board#0" />
+            <element signature="method#handlePlayerTick#0;class#Board#0" />
+            <element signature="method#handleEnemyTick#0;class#Board#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Movement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="method#setLeft#0;class#Movement#0" />
+            <element signature="method#setRight#0;class#Movement#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+          <folding>
+            <element signature="method#setX#0;class#GameObject#0" />
+            <element signature="method#setY#0;class#GameObject#0" />
+            <element signature="method#updateEdges#0;class#GameObject#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/Creep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="method#move#0;class#Creep#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/BlockType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/CollisionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="method#CollisionHandler#0;class#CollisionHandler#0" />
+            <element signature="method#closestBlock#0;class#CollisionHandler#0" />
+            <element signature="method#finish#0;class#CollisionHandler#0" />
+            <element signature="method#hitByEnemy#0;class#CollisionHandler#0" />
+            <element signature="method#cantMoveRight#0;class#CollisionHandler#0" />
+            <element signature="method#cantMoveLeft#0;class#CollisionHandler#0" />
+            <element signature="method#cantMoveDown#0;class#CollisionHandler#0" />
+            <element signature="method#cantMoveUp#0;class#CollisionHandler#0" />
+            <element signature="method#creepCantMoveRight#0;class#CollisionHandler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Maps/map1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="188" selection-start-line="2" selection-start-column="188" selection-end-line="2" selection-end-column="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/davsc542kimla207/tddd78/project/zombiemania/ZombieMania.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="method#ZombieMania#0;class#ZombieMania#0" />
+            <element signature="method#loadNextLevel#0;class#ZombieMania#0" />
+            <element signature="method#run#0;class#ZombieMania#0" />
+            <element signature="method#addMusic#0;class#ZombieMania#0" />
+            <element signature="method#main#0;class#ZombieMania#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>zombiemania</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
